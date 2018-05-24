@@ -6,4 +6,4 @@ run:
 
 .PHONY: test
 test:
-		clj -A:test -m hello.test
+		clj -A:test -m hello.test-runner
