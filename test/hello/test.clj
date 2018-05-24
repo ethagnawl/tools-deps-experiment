@@ -1,6 +1,9 @@
 (ns hello.test
-  (:require [clojure.test :as test]))
+  (:use midje.sweet))
+
+; (midje.util.ecosystem/set-leiningen-paths! {:test-paths ["test"], :source-paths ["src"]})
 
 (defn -main []
-  (test/is (= 4 (+ 2 2)))
-  (test/is (= 5 (+ 2 2))))
+  (facts "facts"
+         (fact "fact"
+               0 => 1)))
