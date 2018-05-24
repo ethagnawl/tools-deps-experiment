@@ -1,0 +1,6 @@
+{:deps
+ {clj-time {:mvn/version "0.14.2"}
+  midje {:mvn/version "1.9.2-alpha3"}}
+
+ :aliases
+ {:test {:extra-paths ["test"]}}}
