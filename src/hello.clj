@@ -5,4 +5,6 @@
   (specter/transform [(specter/filterer odd?) specter/LAST] inc xs))
 
 (defn -main []
-  (println (str "The inc-last-odd is " (inc-last-odd [1 2 3]))))
+  (let [input [1 2 3]
+        result (inc-last-odd input)]
+    (println (str "The result of calling inc-last-odd with " input " is " result))))

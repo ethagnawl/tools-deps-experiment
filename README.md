@@ -14,6 +14,12 @@ This proof-of-concept uses:
 dependencies when necessary)
 - GNU make to provide an ergonomic wrapper around the CLI
 
+In order to run the example:
+- [install Clojure](https://clojure.org/guides/getting_started) and make sure the `clj` binary is available in your
+terminal session
+- run `make` or `make test`
+
+
 # Why?
 I was inspired by David Nolen's talk, _Embracing Simpler Tools_, at Clojure/NYC
 on 5/23/2018. I'm not sure if the talk was recorded or the slides will be made
