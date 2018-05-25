@@ -1,6 +1,6 @@
 {:deps
  {com.rpl/specter {:mvn/version "1.1.1"}
-  midje {:local/root "midje-1.9.2-alpha3.jar"}}
+  marick/Midje {:git/url "https://github.com/marick/Midje.git", :sha "d2a84e2fbcaeace3cf0c223a95dd712188d49e05"}}
 
  :aliases
  {:test {:extra-paths ["test"]}}}
