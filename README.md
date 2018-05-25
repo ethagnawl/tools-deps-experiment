@@ -36,8 +36,9 @@ The micro-library approach to build scripts/tooling does call to mind the old
 NIH criticisms of the Lisp ecosystem. For instance, there is a lot of value in
 being able to add one line to your project.clj file in order to add a plugin
 that handles X. It prevents you from having to write error-prone scripts which
-have nothing to do with your problem domain. I haven't tried using a dependency
-in a build script but it should _just work_ (I'll see about adding an example
-which does this). It'll be interesting to see if the community embraces
-tools.deps and starts building a curated repository of build libraries a la
-Docker Hub or the Chef Supermarket.
+have nothing to do with your problem domain.
+
+I haven't tried using a dedicated build dependency in a build script but it
+should _just work_.  (I'll see about adding an example which does this). It'll
+be interesting to see if the community embraces tools.deps and starts building
+a curated repository of build libraries a la Docker Hub or the Chef Supermarket.
