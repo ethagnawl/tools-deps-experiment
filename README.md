@@ -9,7 +9,7 @@ Git coordinate option, but couldn't get it to work.)
 
 # How?
 This proof-of-concept uses:
-- tools.deps to manage dependencies
+- tools.deps to track dependencies
 - Clojure's CLI to run the program, tests, etc. (The CLI will install
 dependencies when necessary)
 - GNU make to provide an ergonomic wrapper around the CLI
