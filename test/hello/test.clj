@@ -1,6 +1,9 @@
 (ns hello.test
-  (:use midje.sweet))
+  (:use midje.sweet)
+  (:require [hello :as hello]))
 
 (facts "facts"
   (fact "fact"
-    1 => 1))
+        (let [expected [1 2 4]
+              actual (hello/inc-last-odd [1 2 3])]
+        expected => actual)))
