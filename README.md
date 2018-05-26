@@ -53,3 +53,8 @@ It'll be interesting to see what the community does with the power and
 flexibility provided by tools.deps and the Clojure CLI. I'm already envisioning
 a curated repository of build libraries, a la Docker Hub or the Chef
 Supermarket in order to address the issues raised in the previous paragraph.
+
+# Resources
+- [Deps and CLI Guide](https://clojure.org/guides/deps_and_cli)
+- [Deps and CLI Reference](https://clojure.org/reference/deps_and_cli)
+- [JUXT application template](https://github.com/juxt/edge) (Thanks to vemv on HN for drawing my attention to this project)
