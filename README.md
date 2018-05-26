@@ -2,21 +2,18 @@
 This is a proof-of-concept which explores how you might start a greenfield
 project using [Clojure 1.9's tools.deps and CLI](https://clojure.org/guides/deps_and_cli).
 
-The program doesn't do anything useful, but exists just to show how you might
-use tools.deps (see deps.edn) to track third-party dependencies from Maven and
-a local jar. ~~(I tried to install both Midje and Specter from GitHub, using the
-Git coordinate option, but couldn't get it to work.)~~ See "Conclusions".
-
 # How?
 This proof-of-concept uses:
-- tools.deps to track dependencies
-- Clojure's CLI to run the program, tests, etc. (The CLI will install
-dependencies when necessary)
-- GNU make to provide an ergonomic wrapper around the CLI
+- tools.deps to track dependencies from Maven and a local jar
+- Clojure's CLI to run the program, tests, etc. (The CLI will also install
+dependencies when necessary.)
+- GNU make to provide an ergonomic wrapper around the Clojure CLI
 
 To run the example:
 - [install Clojure](https://clojure.org/guides/getting_started) and make sure the `clj` binary is available in your
 terminal session
+- clone the repository
+- navigate to the repository root
 - run `make` or `make test`
 
 # Why?
