@@ -15,13 +15,14 @@ To run the example:
 terminal session
 - clone the repository
 - navigate to the repository root
-- run `make` or `make test`
+- run `make run` or `make test`
 
 # Why?
-I was inspired to put this experiment together after seeing David Nolen's talk,
-_Embracing Simpler Tools_, at Clojure/NYC on 5/23/2018. I'm not sure if the
-talk was recorded or the slides will be made available, but I will add links if
-either/both are.
+I was inspired by David Nolen's excellent talk, [_Embracing Simpler Tools_](https://www.youtube.com/watch?v=F0Lv53lop2g),
+at Clojure/NYC on 5/23/2018.
+
+Also, in my opinion, these features haven't (yet) received their fair due and
+there aren't (yet) very many resources outside of the official guide/reference.
 
 # Conclusions
 This _Simpler Tools_ approach is certainly much, ahem, _simpler_ than the
