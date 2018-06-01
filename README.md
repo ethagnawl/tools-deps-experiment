@@ -4,7 +4,8 @@ project using [Clojure 1.9's tools.deps and CLI](https://clojure.org/guides/deps
 
 # How?
 This proof-of-concept uses:
-- tools.deps to track dependencies from Maven and a local jar
+- tools.deps to track dependencies (third-party libraries _and_ Clojure itself)
+from Maven and a local JAR
 - Clojure's CLI to run the program, tests, etc. (The CLI will also install
 dependencies when necessary.)
 - GNU make to provide an ergonomic wrapper around the Clojure CLI
