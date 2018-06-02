@@ -56,6 +56,15 @@ flexibility provided by tools.deps and the Clojure CLI. I'm already envisioning
 a curated repository of build libraries, a la Docker Hub or the Chef
 Supermarket in order to address the issues raised in the previous paragraph.
 
+# Future Work
+I'd like to keep iterating on this project and would not be opposed to it
+becoming a cookbook of sorts. That would likely mean creating a bunch of
+different examples, each representing a narrow use case, but let's see how it
+evolves.
+
+I'd also be happy to accept pull requests. So, if you see something you think
+could be improved, want to add a new example, etc. please submit a PR!
+
 # Resources
 - [Deps and CLI Guide](https://clojure.org/guides/deps_and_cli)
 - [Deps and CLI Reference](https://clojure.org/reference/deps_and_cli)
