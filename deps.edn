@@ -1,5 +1,7 @@
 {:deps
  {com.rpl/specter {:mvn/version "1.1.1"}
+  clojure/algo.monads {:git/url "https://github.com/clojure/algo.monads.git"
+                       :sha "99a96971d930e4e098bc92f1f3f4363fe75da222"}
   midje {:local/root "vendor/midje-1.9.2-alpha3.jar"}
   org.clojure/clojure {:mvn/version "1.10.0-alpha4"}}
 
